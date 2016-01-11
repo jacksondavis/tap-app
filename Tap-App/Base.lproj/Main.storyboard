@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZvT-C0-a1u">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="IrR-v0-MuB">
+            <objects>
+                <navigationController id="ZvT-C0-a1u" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dvR-gI-CK4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9HM-Rh-qaO" kind="relationship" relationship="rootViewController" id="vfS-rU-P0d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0W-I2-oP1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="486"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="TPm-u4-kZH">
+            <objects>
+                <viewController title="Menu" id="9HM-Rh-qaO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EZx-Tq-JxT"/>
+                        <viewControllerLayoutGuide type="bottom" id="9JE-yz-Y3E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P27-sZ-VJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUS-aV-XgN">
+                                <rect key="frame" x="49" y="281" width="317" height="57"/>
+                                <color key="backgroundColor" red="0.65490196078431373" green="0.50588235294117645" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="38"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-nT-3Qv">
+                                <rect key="frame" x="49" y="380" width="317" height="57"/>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.82745098039215681" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="38"/>
+                                <state key="normal" title="Leaderboards">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftC-Sw-nE7">
+                                <rect key="frame" x="49" y="482" width="317" height="64"/>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.63921568627450975" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="38"/>
+                                <state key="normal" title="Settings">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFD-z6-hAp">
+                                <rect key="frame" x="49" y="611" width="60" height="60"/>
+                                <state key="normal" title="Facebook" image="Fb"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdy-bV-Uua">
+                                <rect key="frame" x="177" y="611" width="60" height="60"/>
+                                <state key="normal" title="Twitter" image="Twitter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLy-5w-awL">
+                                <rect key="frame" x="306" y="611" width="60" height="60"/>
+                                <state key="normal" title="Insta" image="Insta"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Finger" translatesAutoresizingMaskIntoConstraints="NO" id="6mK-pX-w9v">
+                                <rect key="frame" x="7" y="96" width="400" height="155"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="App" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hXF-3G-BK8">
+                                <rect key="frame" x="252" y="144" width="191" height="128.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="58"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Tap" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ym6-24-2PF">
+                                <rect key="frame" x="61" y="144" width="142" height="124"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="58"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gYM-lx-z1c"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VFu-KN-AhF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1348" y="496"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fb" width="138" height="138"/>
+        <image name="Finger" width="696" height="292"/>
+        <image name="Insta" width="152" height="152"/>
+        <image name="Twitter" width="138" height="138"/>
+    </resources>
+</document>
