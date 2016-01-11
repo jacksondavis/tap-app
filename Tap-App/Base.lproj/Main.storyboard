@@ -35,14 +35,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUS-aV-XgN">
-                                <rect key="frame" x="47" y="274" width="317" height="57"/>
-                                <color key="backgroundColor" red="0.65490196078431373" green="0.50588235294117645" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="38"/>
-                                <state key="normal" title="Play">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-nT-3Qv">
                                 <rect key="frame" x="48" y="382" width="317" height="57"/>
                                 <color key="backgroundColor" red="0.8901960784313725" green="0.82745098039215681" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,6 +76,14 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="58"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUS-aV-XgN">
+                                <rect key="frame" x="47" y="274" width="317" height="57"/>
+                                <color key="backgroundColor" red="0.65490196078431373" green="0.50588235294117645" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="38"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -93,7 +93,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1245" y="-49"/>
+            <point key="canvasLocation" x="1377" y="-14"/>
         </scene>
     </scenes>
     <resources>
